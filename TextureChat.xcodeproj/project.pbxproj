@@ -7,27 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C1CC70156A8488D9A2F7737 /* Pods_TextureChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E278A859400471AB6FE26E6 /* Pods_TextureChat.framework */; };
 		445C0F582BC7C8FC004CD30D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445C0F572BC7C8FC004CD30D /* AppDelegate.swift */; };
 		445C0F5A2BC7C8FC004CD30D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445C0F592BC7C8FC004CD30D /* SceneDelegate.swift */; };
-		445C0F5C2BC7C8FC004CD30D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445C0F5B2BC7C8FC004CD30D /* ViewController.swift */; };
-		445C0F5F2BC7C8FC004CD30D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445C0F5D2BC7C8FC004CD30D /* Main.storyboard */; };
 		445C0F612BC7C8FD004CD30D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445C0F602BC7C8FD004CD30D /* Assets.xcassets */; };
 		445C0F642BC7C8FD004CD30D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445C0F622BC7C8FD004CD30D /* LaunchScreen.storyboard */; };
+		44637AA72BC8D05800F66819 /* libTextureChatUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44637A982BC8CF3F00F66819 /* libTextureChatUI.a */; };
+		44637AAA2BC8D08500F66819 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44637AA52BC8D00600F66819 /* RootTabBarController.swift */; };
+		44637AAB2BC8D08900F66819 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44637AA02BC8CF9D00F66819 /* NavigationController.swift */; };
+		67802BFEC63D0134EB7208D6 /* Pods_TextureChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB269AE634EF02159861EA2 /* Pods_TextureChat.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44637AA82BC8D05800F66819 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 445C0F4C2BC7C8FC004CD30D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44637A972BC8CF3E00F66819;
+			remoteInfo = TextureChatUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		44637A962BC8CF3E00F66819 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		445C0F542BC7C8FC004CD30D /* TextureChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextureChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		445C0F572BC7C8FC004CD30D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		445C0F592BC7C8FC004CD30D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		445C0F5B2BC7C8FC004CD30D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		445C0F5E2BC7C8FC004CD30D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		445C0F602BC7C8FD004CD30D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		445C0F632BC7C8FD004CD30D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		445C0F652BC7C8FD004CD30D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6E278A859400471AB6FE26E6 /* Pods_TextureChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextureChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		738C68E3339004BD1E5BEC23 /* Pods-TextureChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureChat.debug.xcconfig"; path = "Target Support Files/Pods-TextureChat/Pods-TextureChat.debug.xcconfig"; sourceTree = "<group>"; };
-		E3750CEDC2F5E2543D55D692 /* Pods-TextureChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureChat.release.xcconfig"; path = "Target Support Files/Pods-TextureChat/Pods-TextureChat.release.xcconfig"; sourceTree = "<group>"; };
+		44637A982BC8CF3F00F66819 /* libTextureChatUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTextureChatUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		44637AA02BC8CF9D00F66819 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		44637AA52BC8D00600F66819 /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		4CC39156042AA21DBD07ED6B /* Pods-TextureChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureChat.release.xcconfig"; path = "Target Support Files/Pods-TextureChat/Pods-TextureChat.release.xcconfig"; sourceTree = "<group>"; };
+		71FF4A55B38971340A0D2DD9 /* Pods-TextureChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureChat.debug.xcconfig"; path = "Target Support Files/Pods-TextureChat/Pods-TextureChat.debug.xcconfig"; sourceTree = "<group>"; };
+		CAB269AE634EF02159861EA2 /* Pods_TextureChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextureChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,30 +59,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C1CC70156A8488D9A2F7737 /* Pods_TextureChat.framework in Frameworks */,
+				67802BFEC63D0134EB7208D6 /* Pods_TextureChat.framework in Frameworks */,
+				44637AA72BC8D05800F66819 /* libTextureChatUI.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44637A952BC8CF3E00F66819 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		36C6A6D7229D725171488B31 /* Pods */ = {
+		0B9E96842FCCABDD4452AFE6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				738C68E3339004BD1E5BEC23 /* Pods-TextureChat.debug.xcconfig */,
-				E3750CEDC2F5E2543D55D692 /* Pods-TextureChat.release.xcconfig */,
+				CAB269AE634EF02159861EA2 /* Pods_TextureChat.framework */,
 			);
-			name = Pods;
-			path = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		445C0F4B2BC7C8FC004CD30D = {
 			isa = PBXGroup;
 			children = (
+				44637A9F2BC8CF4C00F66819 /* submodules */,
 				445C0F562BC7C8FC004CD30D /* TextureChat */,
 				445C0F552BC7C8FC004CD30D /* Products */,
-				36C6A6D7229D725171488B31 /* Pods */,
-				655FA5AFCC263E950FB734F4 /* Frameworks */,
+				BBD09A1BF3D57BB38F516C67 /* Pods */,
+				0B9E96842FCCABDD4452AFE6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				445C0F542BC7C8FC004CD30D /* TextureChat.app */,
+				44637A982BC8CF3F00F66819 /* libTextureChatUI.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -73,23 +105,71 @@
 		445C0F562BC7C8FC004CD30D /* TextureChat */ = {
 			isa = PBXGroup;
 			children = (
-				445C0F572BC7C8FC004CD30D /* AppDelegate.swift */,
-				445C0F592BC7C8FC004CD30D /* SceneDelegate.swift */,
-				445C0F5B2BC7C8FC004CD30D /* ViewController.swift */,
-				445C0F5D2BC7C8FC004CD30D /* Main.storyboard */,
-				445C0F602BC7C8FD004CD30D /* Assets.xcassets */,
-				445C0F622BC7C8FD004CD30D /* LaunchScreen.storyboard */,
-				445C0F652BC7C8FD004CD30D /* Info.plist */,
+				44637A922BC8CE4800F66819 /* Apps */,
 			);
 			path = TextureChat;
 			sourceTree = "<group>";
 		};
-		655FA5AFCC263E950FB734F4 /* Frameworks */ = {
+		44637A922BC8CE4800F66819 /* Apps */ = {
 			isa = PBXGroup;
 			children = (
-				6E278A859400471AB6FE26E6 /* Pods_TextureChat.framework */,
+				445C0F572BC7C8FC004CD30D /* AppDelegate.swift */,
+				445C0F592BC7C8FC004CD30D /* SceneDelegate.swift */,
+				445C0F602BC7C8FD004CD30D /* Assets.xcassets */,
+				445C0F622BC7C8FD004CD30D /* LaunchScreen.storyboard */,
+				445C0F652BC7C8FD004CD30D /* Info.plist */,
 			);
-			name = Frameworks;
+			path = Apps;
+			sourceTree = "<group>";
+		};
+		44637A992BC8CF3F00F66819 /* TextureChatUI */ = {
+			isa = PBXGroup;
+			children = (
+				44637AA22BC8CFBB00F66819 /* Components */,
+			);
+			path = TextureChatUI;
+			sourceTree = "<group>";
+		};
+		44637A9F2BC8CF4C00F66819 /* submodules */ = {
+			isa = PBXGroup;
+			children = (
+				44637A992BC8CF3F00F66819 /* TextureChatUI */,
+			);
+			path = submodules;
+			sourceTree = "<group>";
+		};
+		44637AA22BC8CFBB00F66819 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				44637AA42BC8CFED00F66819 /* RootTabBarController */,
+				44637AA32BC8CFD700F66819 /* NavigationController */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		44637AA32BC8CFD700F66819 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				44637AA02BC8CF9D00F66819 /* NavigationController.swift */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		44637AA42BC8CFED00F66819 /* RootTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				44637AA52BC8D00600F66819 /* RootTabBarController.swift */,
+			);
+			path = RootTabBarController;
+			sourceTree = "<group>";
+		};
+		BBD09A1BF3D57BB38F516C67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71FF4A55B38971340A0D2DD9 /* Pods-TextureChat.debug.xcconfig */,
+				4CC39156042AA21DBD07ED6B /* Pods-TextureChat.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,20 +179,38 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 445C0F682BC7C8FD004CD30D /* Build configuration list for PBXNativeTarget "TextureChat" */;
 			buildPhases = (
-				F26E9F4D0B8A84C4AC0CAA86 /* [CP] Check Pods Manifest.lock */,
+				60676F292D7065109F2A4134 /* [CP] Check Pods Manifest.lock */,
 				445C0F502BC7C8FC004CD30D /* Sources */,
 				445C0F512BC7C8FC004CD30D /* Frameworks */,
 				445C0F522BC7C8FC004CD30D /* Resources */,
-				68F2E000D71393B6A1BCBD01 /* [CP] Embed Pods Frameworks */,
+				DFC3CB60AB3A06A842F824E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				44637AA92BC8D05800F66819 /* PBXTargetDependency */,
 			);
 			name = TextureChat;
 			productName = TextureChat;
 			productReference = 445C0F542BC7C8FC004CD30D /* TextureChat.app */;
 			productType = "com.apple.product-type.application";
+		};
+		44637A972BC8CF3E00F66819 /* TextureChatUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44637A9C2BC8CF3F00F66819 /* Build configuration list for PBXNativeTarget "TextureChatUI" */;
+			buildPhases = (
+				44637A942BC8CF3E00F66819 /* Sources */,
+				44637A952BC8CF3E00F66819 /* Frameworks */,
+				44637A962BC8CF3E00F66819 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextureChatUI;
+			productName = TextureChatUI;
+			productReference = 44637A982BC8CF3F00F66819 /* libTextureChatUI.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -125,6 +223,9 @@
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					445C0F532BC7C8FC004CD30D = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					44637A972BC8CF3E00F66819 = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
@@ -143,6 +244,7 @@
 			projectRoot = "";
 			targets = (
 				445C0F532BC7C8FC004CD30D /* TextureChat */,
+				44637A972BC8CF3E00F66819 /* TextureChatUI */,
 			);
 		};
 /* End PBXProject section */
@@ -154,31 +256,13 @@
 			files = (
 				445C0F642BC7C8FD004CD30D /* LaunchScreen.storyboard in Resources */,
 				445C0F612BC7C8FD004CD30D /* Assets.xcassets in Resources */,
-				445C0F5F2BC7C8FC004CD30D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		68F2E000D71393B6A1BCBD01 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TextureChat/Pods-TextureChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TextureChat/Pods-TextureChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TextureChat/Pods-TextureChat-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F26E9F4D0B8A84C4AC0CAA86 /* [CP] Check Pods Manifest.lock */ = {
+		60676F292D7065109F2A4134 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -200,6 +284,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DFC3CB60AB3A06A842F824E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextureChat/Pods-TextureChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextureChat/Pods-TextureChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TextureChat/Pods-TextureChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -207,23 +308,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				445C0F5C2BC7C8FC004CD30D /* ViewController.swift in Sources */,
 				445C0F582BC7C8FC004CD30D /* AppDelegate.swift in Sources */,
 				445C0F5A2BC7C8FC004CD30D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		44637A942BC8CF3E00F66819 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44637AAA2BC8D08500F66819 /* RootTabBarController.swift in Sources */,
+				44637AAB2BC8D08900F66819 /* NavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		445C0F5D2BC7C8FC004CD30D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				445C0F5E2BC7C8FC004CD30D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		44637AA92BC8D05800F66819 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44637A972BC8CF3E00F66819 /* TextureChatUI */;
+			targetProxy = 44637AA82BC8D05800F66819 /* PBXContainerItemProxy */;
 		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		445C0F622BC7C8FD004CD30D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,6 +401,10 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-Xlinker",
+					"-no_warn_duplicate_libraries",
+				);
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -348,6 +461,10 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"-Xlinker",
+					"-no_warn_duplicate_libraries",
+				);
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
@@ -356,24 +473,60 @@
 		};
 		445C0F692BC7C8FD004CD30D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 738C68E3339004BD1E5BEC23 /* Pods-TextureChat.debug.xcconfig */;
+			baseConfigurationReference = 71FF4A55B38971340A0D2DD9 /* Pods-TextureChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TextureChat/Info.plist;
+				INFOPLIST_FILE = TextureChat/Apps/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"AsyncDisplayKit\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MapKit\"",
+					"-framework",
+					"\"PINCache\"",
+					"-framework",
+					"\"PINOperation\"",
+					"-framework",
+					"\"PINRemoteImage\"",
+					"-framework",
+					"\"Photos\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.bingbing.TextureChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -384,27 +537,89 @@
 		};
 		445C0F6A2BC7C8FD004CD30D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3750CEDC2F5E2543D55D692 /* Pods-TextureChat.release.xcconfig */;
+			baseConfigurationReference = 4CC39156042AA21DBD07ED6B /* Pods-TextureChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TextureChat/Info.plist;
+				INFOPLIST_FILE = TextureChat/Apps/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-l\"c++\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"AsyncDisplayKit\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"MapKit\"",
+					"-framework",
+					"\"PINCache\"",
+					"-framework",
+					"\"PINOperation\"",
+					"-framework",
+					"\"PINRemoteImage\"",
+					"-framework",
+					"\"Photos\"",
+					"-framework",
+					"\"UIKit\"",
+					"-weak_framework",
+					"\"UIKit\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = tw.com.bingbing.TextureChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44637A9D2BC8CF3F00F66819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44637A9E2BC8CF3F00F66819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -427,6 +642,15 @@
 			buildConfigurations = (
 				445C0F692BC7C8FD004CD30D /* Debug */,
 				445C0F6A2BC7C8FD004CD30D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44637A9C2BC8CF3F00F66819 /* Build configuration list for PBXNativeTarget "TextureChatUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44637A9D2BC8CF3F00F66819 /* Debug */,
+				44637A9E2BC8CF3F00F66819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
