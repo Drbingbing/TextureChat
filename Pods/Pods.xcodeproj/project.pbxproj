@@ -82,6 +82,7 @@
 		2708562E31F325E354724490B0992384 /* PINOperation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A74625036C72AB1D11BF828EF40AF42E /* PINOperation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2735C083AC4BB73708BCAE189B61F7D3 /* ASBackgroundLayoutSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = ACFD0C138282EAC8935945A49DE4A106 /* ASBackgroundLayoutSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2757C80335983AFB56046AAD2DFAA6D3 /* PINMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 0964567655AE549BDF757E8DF816FBFF /* PINMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2911F693E135CF36EB0F69D452AC9AAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A5364016259E6CB2444653E04A14B28 /* Foundation.framework */; };
 		2A2D9741BC06256DC66C82090B40D185 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E023121733B6B77E3E893B9457AEBF9 /* ImageIO.framework */; };
 		2A51500CE214FC46459164535C2D2EE3 /* ASTextKitAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 882CAD5BB4DD023A743916D277E7A9F8 /* ASTextKitAttributes.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2A855148F3824AE4C441FA89D7DDBA3A /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C1A2B2BC1415A53FD2FD24C4C0095D6 /* AssetsLibrary.framework */; };
@@ -107,7 +108,7 @@
 		310B79A294E275234A745F832E2ADA1C /* ASAbstractLayoutController.mm in Sources */ = {isa = PBXBuildFile; fileRef = C39D8BE53E4EB378D9709E4D02131DA6 /* ASAbstractLayoutController.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		31B5F61D67A24F8B110B680A9FAEBF6A /* ASCollectionLayoutContext.h in Headers */ = {isa = PBXBuildFile; fileRef = B9A841D4A633463A87F2726AEA7BBBB1 /* ASCollectionLayoutContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3225ABCDAAF00205452576CAEB706993 /* ASLayerBackingTipProvider.mm in Sources */ = {isa = PBXBuildFile; fileRef = AF566014C397ACC6CFD312D70B47824C /* ASLayerBackingTipProvider.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions -w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3288E0CFC05A955FD4C859D24567EB7A /* Pods-TextureChat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6EE81B76CE97420065E4799E3D4EE8D /* Pods-TextureChat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3288E0CFC05A955FD4C859D24567EB7A /* Pods-TextureChat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18D49F95F8B9074E84AC5B9194314258 /* Pods-TextureChat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32EC02441401AC8D2FCFFB98CA48FA0D /* ASCellNode.h in Headers */ = {isa = PBXBuildFile; fileRef = AA630CD4C006172E413D222AC52D6AE0 /* ASCellNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		332E9E32EA25C369B340F2F1E9C92F45 /* PINButton+PINRemoteImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CD84E09F5FA855D090FB8AA27C039C2 /* PINButton+PINRemoteImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33421381D895BF98FF18C4F5AC9F8261 /* ASCollectionLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DACFBEE5DA1C0933127FB5EF46FC022 /* ASCollectionLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -291,6 +292,7 @@
 		949F87119151FBF62C45AE770073106B /* ASTableNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = F2BDADA0E85A73A6C9A29FBA4A48B38F /* ASTableNode.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		94FDBF7A9ECE5A7C8836EF94E6C8D3F3 /* ASDisplayNode+Beta.h in Headers */ = {isa = PBXBuildFile; fileRef = 302B87C2A12CAA6C0D44495FD98EE635 /* ASDisplayNode+Beta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9568AE899C92AB354CBBF89047BF51CB /* ASControlNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E0960532BDBC2B75DEFB2E46474DFB5 /* ASControlNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95E5873FA6AC006C3968286B939D0F98 /* Pods-TextureChatUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39929A7EA5A7610431824DB66C491ED0 /* Pods-TextureChatUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		961DE130A9E4DD57A6F25B062255283A /* PINAnimatedImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = D13CF7125B69CA994A1A19ADF69164F8 /* PINAnimatedImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		96E4A9710A48427E39969E053602903B /* ASVideoPlayerNode.h in Headers */ = {isa = PBXBuildFile; fileRef = D7599FEDA20FCED7D1C989F0027DD87C /* ASVideoPlayerNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97569722D2B87260D45847D3D33447EB /* PINRemoteImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 510DCE3B48F67D693EF6D5292014D927 /* PINRemoteImage-dummy.m */; };
@@ -376,6 +378,7 @@
 		BC4CF7C751F566D1C1ADDD9333BC87A9 /* ASCollectionViewLayoutController.h in Headers */ = {isa = PBXBuildFile; fileRef = 02242241196FCCC749EE6C5466DFA63A /* ASCollectionViewLayoutController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC853B6F48802BADEE404AB54027458D /* ASConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C584AA9A3914BF339E0DB00EC5F3B3B /* ASConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD68272E87015A93284F5B0183F4C6E0 /* PINRemoteImageTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E57E56ED96B01EFFB474D13F8F2E736 /* PINRemoteImageTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDE6386F3BA25A1CD672330DB55BF261 /* Pods-TextureChatUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9765532CA756DA1F6F769CCA828D6823 /* Pods-TextureChatUI-dummy.m */; };
 		BE22F30BB7CE5810F6FC9C98201A4E50 /* ASDisplayNodeExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 17B19882D4F6EF49F20CF532907FA357 /* ASDisplayNodeExtras.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		BE720438A60C4A81EC92A355EB137C22 /* PINRemoteImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA479C38E875642DC6D0F70C22C53E2 /* PINRemoteImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE9C6136BD8CB2FB59220D56EAD02A5F /* ASNetworkImageNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 59BD0CDED5ED108B0885BE7DFC4A68E8 /* ASNetworkImageNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -444,7 +447,7 @@
 		DBA37FC33A41853DCFD72B16AAFE06B2 /* ASGraphicsContext.mm in Sources */ = {isa = PBXBuildFile; fileRef = 54CFBE333F65B7EDA509A152520B2FE8 /* ASGraphicsContext.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		DDC4808AC994A6D068DF4F9BEFEEDF3C /* ASCollectionViewProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = F1090FE0DD646DC6D0850E0BA36405F3 /* ASCollectionViewProtocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE1B1E6AF130C2857664BD02A6144CF0 /* _ASAsyncTransaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 5004C451718460F7D56C8FF16F8302DC /* _ASAsyncTransaction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DECD3BBFB1A5E977068D640E4F97F3AB /* Pods-TextureChat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 103D059302E334CB10AFF6418FE0511E /* Pods-TextureChat-dummy.m */; };
+		DECD3BBFB1A5E977068D640E4F97F3AB /* Pods-TextureChat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64837806CD26CF8900B120615723FEB3 /* Pods-TextureChat-dummy.m */; };
 		DFD2EC908B5D436DA5B81FCFB94C5EA5 /* ASAbstractLayoutController.h in Headers */ = {isa = PBXBuildFile; fileRef = ED11FFE0882E190170933C027E98F707 /* ASAbstractLayoutController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E032626252DBC96E3F6C291B166BF9E7 /* ASLayoutManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1B1F7C4E0D9921A6C8C1EA3BEE4BFBDA /* ASLayoutManager.mm */; settings = {COMPILER_FLAGS = "-fno-exceptions -w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E060F2BF057FC11A9DA623F3A7672E2D /* ASTipNode.h in Headers */ = {isa = PBXBuildFile; fileRef = EADCD92C54DE941C661292CB7A72E1E4 /* ASTipNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -523,7 +526,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0F8545FFCB60DCCB4FFE8EA6FD82BA41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2A8B2A28D2EAB2E4CCF3B69E6792851;
+			remoteInfo = PINRemoteImage;
+		};
 		11B9C74BD4D0AF9A583F908B53172DBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57310B016450E63387C9D64F4933E995;
+			remoteInfo = PINOperation;
+		};
+		1394665A87495BC9DC1F778B209FE55E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -579,6 +596,20 @@
 			remoteGlobalIDString = A927C3CD51C30012080D6CA07959B246;
 			remoteInfo = PINCache;
 		};
+		F906F68A2ACE3565E66DEF12E88DA81C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB66E43BC980D741F3C7C5CF3ACEEFA4;
+			remoteInfo = Texture;
+		};
+		FC905F33E28EDAF356D40266CB9D3891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A927C3CD51C30012080D6CA07959B246;
+			remoteInfo = PINCache;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -626,7 +657,6 @@
 		0FEA06CB098370189C1103854CA5077F /* PINRemoteImageTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINRemoteImageTask.m; path = Source/Classes/PINRemoteImageTask.m; sourceTree = "<group>"; };
 		0FEC70814CD0F1C79D7DE05E6FFF8488 /* ASDisplayNode+Ancestry.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "ASDisplayNode+Ancestry.mm"; path = "Source/Base/ASDisplayNode+Ancestry.mm"; sourceTree = "<group>"; };
 		101C500CB65E313FEADB35BA37C18652 /* ASNetworkImageNode.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASNetworkImageNode.mm; path = Source/ASNetworkImageNode.mm; sourceTree = "<group>"; };
-		103D059302E334CB10AFF6418FE0511E /* Pods-TextureChat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TextureChat-dummy.m"; sourceTree = "<group>"; };
 		115A4FCB2A03922EC10B633F15359653 /* PINRemoteImage */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PINRemoteImage; path = PINRemoteImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1208FD056F60C358052344C12BCD1400 /* NSParagraphStyle+ASText.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "NSParagraphStyle+ASText.mm"; path = "Source/TextExperiment/Utility/NSParagraphStyle+ASText.mm"; sourceTree = "<group>"; };
 		12A41184DB2B2A269071BD7D628084C8 /* UIView+ASConvenience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ASConvenience.h"; path = "Source/Details/UIView+ASConvenience.h"; sourceTree = "<group>"; };
@@ -645,6 +675,7 @@
 		1893C4BD7BA621726AB5154CD30D6CAA /* ASImageNode+AnimatedImagePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ASImageNode+AnimatedImagePrivate.h"; path = "Source/Private/ASImageNode+AnimatedImagePrivate.h"; sourceTree = "<group>"; };
 		1893D93D4FF6D2E7AB3D1FA8B39C79A6 /* ASSectionContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASSectionContext.h; path = Source/Details/ASSectionContext.h; sourceTree = "<group>"; };
 		189BBBEF314F5632F32DEBAB3119AA42 /* PINCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINCache.h; path = Source/PINCache.h; sourceTree = "<group>"; };
+		18D49F95F8B9074E84AC5B9194314258 /* Pods-TextureChat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TextureChat-umbrella.h"; sourceTree = "<group>"; };
 		192F1DF391ED1337AA49D079013BB4CB /* ASDelegateProxy.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASDelegateProxy.mm; path = Source/Details/ASDelegateProxy.mm; sourceTree = "<group>"; };
 		1971780E236A6D3739D0E6B97B69EA18 /* ASDKViewController.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASDKViewController.mm; path = Source/ASDKViewController.mm; sourceTree = "<group>"; };
 		19E4953D755D412B0A70DAC890BD7A73 /* ASVideoNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASVideoNode.h; path = Source/ASVideoNode.h; sourceTree = "<group>"; };
@@ -701,6 +732,7 @@
 		3060F659804F1C8C5BA9D2F576868572 /* ASMainThreadDeallocation.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASMainThreadDeallocation.mm; path = Source/ASMainThreadDeallocation.mm; sourceTree = "<group>"; };
 		30AAE7A11260BD7F39C310127D106EFD /* ASDisplayNode+InterfaceState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ASDisplayNode+InterfaceState.h"; path = "Source/ASDisplayNode+InterfaceState.h"; sourceTree = "<group>"; };
 		31C0F07FBE2B0199D42A94420D767D13 /* ASImageContainerProtocolCategories.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASImageContainerProtocolCategories.h; path = Source/Details/ASImageContainerProtocolCategories.h; sourceTree = "<group>"; };
+		323708E6A7857112703522312ED45979 /* Pods-TextureChat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TextureChat-acknowledgements.plist"; sourceTree = "<group>"; };
 		32829D76BB23477EA25503BE715219D9 /* ASCollectionNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASCollectionNode.h; path = Source/ASCollectionNode.h; sourceTree = "<group>"; };
 		32D6B40B4029E043B124DADB7A6990F1 /* ASControlNode+tvOS.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "ASControlNode+tvOS.mm"; path = "Source/tvOS/ASControlNode+tvOS.mm"; sourceTree = "<group>"; };
 		32EB6C106FA09F467D5200E9137E7077 /* ASCollectionGalleryLayoutDelegate.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASCollectionGalleryLayoutDelegate.mm; path = Source/Details/ASCollectionGalleryLayoutDelegate.mm; sourceTree = "<group>"; };
@@ -710,9 +742,11 @@
 		365E24AE7E774D0386BE4163F202EB5F /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
 		377649CF33B79386CD1F8EF21FB631EB /* ASTextKitRenderer.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASTextKitRenderer.mm; path = Source/TextKit/ASTextKitRenderer.mm; sourceTree = "<group>"; };
 		382FCE39DC2EEBB085E6958DDCBDA1C0 /* ASIntegerMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASIntegerMap.h; path = Source/Details/ASIntegerMap.h; sourceTree = "<group>"; };
+		3846D5C056005809ED9AFB47FC0C8279 /* Pods-TextureChatUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TextureChatUI-acknowledgements.markdown"; sourceTree = "<group>"; };
 		387CB21D415B12F060C1F1855FC1AC1F /* ASMapNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASMapNode.h; path = Source/ASMapNode.h; sourceTree = "<group>"; };
 		38E37DA2E14FA769C25B5D00F8363628 /* ASDisplayNode+Convenience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ASDisplayNode+Convenience.h"; path = "Source/ASDisplayNode+Convenience.h"; sourceTree = "<group>"; };
 		39469547584715DC15C17FD3249DB5F3 /* PINRemoteImageManagerResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINRemoteImageManagerResult.m; path = Source/Classes/PINRemoteImageManagerResult.m; sourceTree = "<group>"; };
+		39929A7EA5A7610431824DB66C491ED0 /* Pods-TextureChatUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TextureChatUI-umbrella.h"; sourceTree = "<group>"; };
 		3A7371016C02C4F31AFC5DD262420436 /* ASSection.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASSection.mm; path = Source/Private/ASSection.mm; sourceTree = "<group>"; };
 		3B1845C0E5332B989F16FD7C9CF5E002 /* ASCollectionLayoutContext.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASCollectionLayoutContext.mm; path = Source/Details/ASCollectionLayoutContext.mm; sourceTree = "<group>"; };
 		3B76C13871113610B790E5634FD8E4B7 /* PINRemoteImageMemoryContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINRemoteImageMemoryContainer.m; path = Source/Classes/PINRemoteImageMemoryContainer.m; sourceTree = "<group>"; };
@@ -721,9 +755,11 @@
 		3C5A6AEC41EFC3AD25534536494FF0B1 /* PINImage+ScaledImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PINImage+ScaledImage.h"; path = "Source/Classes/Categories/PINImage+ScaledImage.h"; sourceTree = "<group>"; };
 		3C69FF5E87A081B57AFD9CF41C19BC10 /* PINCachedAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINCachedAnimatedImage.h; path = Source/Classes/include/PINCachedAnimatedImage.h; sourceTree = "<group>"; };
 		3C7CB66DC3DADF06304DCD664B39A8CC /* ASDisplayNodeTipState.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASDisplayNodeTipState.mm; path = Source/Private/ASDisplayNodeTipState.mm; sourceTree = "<group>"; };
+		3C85160A6FE79D985342A424EB01C064 /* Pods-TextureChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextureChat.debug.xcconfig"; sourceTree = "<group>"; };
 		3C8F71BC92C3939CC05FD410E84FF05C /* PINRemoteImageDownloadQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINRemoteImageDownloadQueue.m; path = Source/Classes/PINRemoteImageDownloadQueue.m; sourceTree = "<group>"; };
 		3CAF3AC46F7A1841E56DA5B95393B2DA /* ASLayout.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASLayout.mm; path = Source/Layout/ASLayout.mm; sourceTree = "<group>"; };
 		3D673E12DB0B97C4702DCA57BD907DCD /* PINWebPAnimatedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINWebPAnimatedImage.m; path = Source/Classes/AnimatedImages/PINWebPAnimatedImage.m; sourceTree = "<group>"; };
+		3DD69122BC0DF1FBBAFE1688B909DF53 /* Pods-TextureChatUI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TextureChatUI-acknowledgements.plist"; sourceTree = "<group>"; };
 		3DFDAF1C61430DC7560FD8398184E746 /* ASDataController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASDataController.h; path = Source/Details/ASDataController.h; sourceTree = "<group>"; };
 		3E469CBD7D7AB5AB0A7A4DBF776B412C /* ASPageTable.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASPageTable.mm; path = Source/Details/ASPageTable.mm; sourceTree = "<group>"; };
 		3F7DA777C38E96B00111DFE0BEFE7913 /* ASBasicImageDownloaderInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASBasicImageDownloaderInternal.h; path = Source/Private/ASBasicImageDownloaderInternal.h; sourceTree = "<group>"; };
@@ -780,6 +816,7 @@
 		5446BF8F6EE5445BB8095CED507BA6E0 /* PINGIFAnimatedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINGIFAnimatedImage.m; path = Source/Classes/AnimatedImages/PINGIFAnimatedImage.m; sourceTree = "<group>"; };
 		54CFBE333F65B7EDA509A152520B2FE8 /* ASGraphicsContext.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASGraphicsContext.mm; path = Source/Details/ASGraphicsContext.mm; sourceTree = "<group>"; };
 		556D557F23FCD191B665690B58AC0B95 /* PINOperationTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINOperationTypes.h; path = Source/PINOperationTypes.h; sourceTree = "<group>"; };
+		55F73DF92D94A0ABD0B4A9B0B7D86A71 /* Pods-TextureChatUI */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-TextureChatUI"; path = Pods_TextureChatUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5688A739BB7B10A17AF1E41094FBDD6B /* PINRemoteImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINRemoteImage.h; path = Source/Classes/include/PINRemoteImage.h; sourceTree = "<group>"; };
 		570D139FC142DE14276857D5A821A0FF /* ASImageNode+CGExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ASImageNode+CGExtras.h"; path = "Source/Private/ASImageNode+CGExtras.h"; sourceTree = "<group>"; };
 		5794D63296580A82E5E7C507426C095A /* AsyncDisplayKit+Tips.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "AsyncDisplayKit+Tips.mm"; path = "Source/Debug/AsyncDisplayKit+Tips.mm"; sourceTree = "<group>"; };
@@ -815,14 +852,13 @@
 		64116DD37F68B07B3B0DE77751C883F1 /* PINOperation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PINOperation-prefix.pch"; sourceTree = "<group>"; };
 		644886BA7CFC1053B9A6C8A36B219C36 /* ASSectionController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASSectionController.h; path = Source/ASSectionController.h; sourceTree = "<group>"; };
 		647F606801780C21B7C5F64B1DEEE95B /* ASTableLayoutController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASTableLayoutController.h; path = Source/Details/ASTableLayoutController.h; sourceTree = "<group>"; };
-		64AD22739DEACE1CAFB4B1FC302C615D /* Pods-TextureChat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TextureChat-acknowledgements.markdown"; sourceTree = "<group>"; };
+		64837806CD26CF8900B120615723FEB3 /* Pods-TextureChat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TextureChat-dummy.m"; sourceTree = "<group>"; };
 		64AE383F5557C4EB6C02982624E9A40C /* ASInternalHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASInternalHelpers.h; path = Source/Private/ASInternalHelpers.h; sourceTree = "<group>"; };
 		653B60B3AE6439CBED7A8CCF420C9F23 /* ASResponderChainEnumerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASResponderChainEnumerator.h; path = Source/Private/ASResponderChainEnumerator.h; sourceTree = "<group>"; };
 		653C571887BCC0FD884AF442FC1DC0B3 /* ASDKNavigationController.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASDKNavigationController.mm; path = Source/ASDKNavigationController.mm; sourceTree = "<group>"; };
 		654D1E21BE6823C591A608C6EC9D313B /* ASTextKitContext.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASTextKitContext.mm; path = Source/TextKit/ASTextKitContext.mm; sourceTree = "<group>"; };
 		66CD319551B9DF30B551A822C17C5AD3 /* ASCollectionInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASCollectionInternal.h; path = Source/Details/ASCollectionInternal.h; sourceTree = "<group>"; };
 		66E1BC9CB957444098D7B71E55F09C0A /* ASLayoutElementStylePrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASLayoutElementStylePrivate.h; path = Source/Private/Layout/ASLayoutElementStylePrivate.h; sourceTree = "<group>"; };
-		66FC67BF9BCE63E8FE69EEAB5EF2A98A /* Pods-TextureChat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TextureChat-acknowledgements.plist"; sourceTree = "<group>"; };
 		6721E5BEB6FCC93087D899B00F020D5A /* PINRemoteImage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PINRemoteImage-Info.plist"; sourceTree = "<group>"; };
 		696B1E4E1E531979AE43F3DC2B69451D /* ASControlTargetAction.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASControlTargetAction.mm; path = Source/Private/ASControlTargetAction.mm; sourceTree = "<group>"; };
 		697D7E44BDE5BE4A0ACDE3DCC1A75DF9 /* ASNetworkImageLoadInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASNetworkImageLoadInfo.h; path = Source/ASNetworkImageLoadInfo.h; sourceTree = "<group>"; };
@@ -859,6 +895,7 @@
 		7428C524EFC7D50242D9CF71007C0A93 /* PINCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PINCache-prefix.pch"; sourceTree = "<group>"; };
 		74809872EF01A2A8B9F326A491E24F33 /* _ASCollectionGalleryLayoutItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _ASCollectionGalleryLayoutItem.h; path = Source/Private/_ASCollectionGalleryLayoutItem.h; sourceTree = "<group>"; };
 		74C846C2AC2B4F5854716D659394AAFD /* CoreGraphics+ASConvenience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CoreGraphics+ASConvenience.h"; path = "Source/Details/CoreGraphics+ASConvenience.h"; sourceTree = "<group>"; };
+		74C9D4EEDDAF598097457C6FC5AED484 /* Pods-TextureChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextureChat.release.xcconfig"; sourceTree = "<group>"; };
 		753ECF455589A055CD627680B98CBFB5 /* ASTraitCollection.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASTraitCollection.mm; path = Source/Details/ASTraitCollection.mm; sourceTree = "<group>"; };
 		754964278CA439B0C3D6B289E044C695 /* ASTabBarController.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASTabBarController.mm; path = Source/ASTabBarController.mm; sourceTree = "<group>"; };
 		754A82109BC04437A4A65082E1DF2C78 /* ASIntegerMap.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASIntegerMap.mm; path = Source/Details/ASIntegerMap.mm; sourceTree = "<group>"; };
@@ -871,8 +908,9 @@
 		790FD97BCBD0110961780552C759DF98 /* PINImageView+PINRemoteImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "PINImageView+PINRemoteImage.m"; path = "Source/Classes/ImageCategories/PINImageView+PINRemoteImage.m"; sourceTree = "<group>"; };
 		79222AC676D15A57DFFB0F575D6E86F4 /* ASTextUtilities.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASTextUtilities.mm; path = Source/TextExperiment/Utility/ASTextUtilities.mm; sourceTree = "<group>"; };
 		79B1CEDE11B0A34B5F18968527A72ECA /* ASTwoDimensionalArrayUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASTwoDimensionalArrayUtils.mm; path = Source/Private/ASTwoDimensionalArrayUtils.mm; sourceTree = "<group>"; };
+		7A4D05DF15DD8627B8DFFA1BA146D457 /* Pods-TextureChatUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextureChatUI.release.xcconfig"; sourceTree = "<group>"; };
 		7BF99DF1F99AF5F8AD7D64AAF2BA1E44 /* ASCollectionElement.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASCollectionElement.mm; path = Source/Details/ASCollectionElement.mm; sourceTree = "<group>"; };
-		7DAA0EA12D5142DA7108C4910B2B5B0A /* Pods-TextureChat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TextureChat-Info.plist"; sourceTree = "<group>"; };
+		7C581CDB72795D1E53F0A42056D61EC5 /* Pods-TextureChat-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TextureChat-Info.plist"; sourceTree = "<group>"; };
 		7DBE419CB2F290B559A7011979017C7D /* Texture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Texture.release.xcconfig; sourceTree = "<group>"; };
 		7DD4634BD8153FE183A214BA8F59088A /* ASDispatch.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASDispatch.mm; path = Source/Private/ASDispatch.mm; sourceTree = "<group>"; };
 		7DF4F7B0BA067B961678630F5F60E673 /* ASDisplayNode+FrameworkPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ASDisplayNode+FrameworkPrivate.h"; path = "Source/Private/ASDisplayNode+FrameworkPrivate.h"; sourceTree = "<group>"; };
@@ -900,6 +938,7 @@
 		873CCB70C10B3A495FBDB6B5F685373B /* ASTextKitCoreTextAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASTextKitCoreTextAdditions.h; path = Source/TextKit/ASTextKitCoreTextAdditions.h; sourceTree = "<group>"; };
 		878DA4740C063E90987A13B56DEA7DDA /* ASCollectionLayoutState.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASCollectionLayoutState.mm; path = Source/Details/ASCollectionLayoutState.mm; sourceTree = "<group>"; };
 		882CAD5BB4DD023A743916D277E7A9F8 /* ASTextKitAttributes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASTextKitAttributes.h; path = Source/TextKit/ASTextKitAttributes.h; sourceTree = "<group>"; };
+		88A73DE750FD04974B0D75AAC32F66CD /* Pods-TextureChatUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextureChatUI.debug.xcconfig"; sourceTree = "<group>"; };
 		8A0FAC9D991DDA33677FE7889A04F6BB /* ASObjectDescriptionHelpers.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASObjectDescriptionHelpers.mm; path = Source/Details/ASObjectDescriptionHelpers.mm; sourceTree = "<group>"; };
 		8B670732A96332078390FB8FB43C1DB3 /* _ASHierarchyChangeSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _ASHierarchyChangeSet.h; path = Source/Private/_ASHierarchyChangeSet.h; sourceTree = "<group>"; };
 		8C0BBAD824311F04F106FFD4EB44BF55 /* ASGraphicsContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASGraphicsContext.h; path = Source/Details/ASGraphicsContext.h; sourceTree = "<group>"; };
@@ -919,6 +958,7 @@
 		966FD881395FF4683060BDF1A2C1AFE7 /* PINAnimatedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINAnimatedImage.h; path = Source/Classes/include/PINAnimatedImage.h; sourceTree = "<group>"; };
 		96AF0974FDA6B82D477930BEC2DCA738 /* ASRatioLayoutSpec.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASRatioLayoutSpec.mm; path = Source/Layout/ASRatioLayoutSpec.mm; sourceTree = "<group>"; };
 		97572917EE326DA1D1BCB834CA128711 /* _ASDisplayLayer.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = _ASDisplayLayer.mm; path = Source/Details/_ASDisplayLayer.mm; sourceTree = "<group>"; };
+		9765532CA756DA1F6F769CCA828D6823 /* Pods-TextureChatUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TextureChatUI-dummy.m"; sourceTree = "<group>"; };
 		97A13556C3ADEA829B9D9A76611A7DF2 /* ASAbsoluteLayoutElement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASAbsoluteLayoutElement.h; path = Source/Layout/ASAbsoluteLayoutElement.h; sourceTree = "<group>"; };
 		97B4639DBD12842C797C250B09C796AD /* _ASTransitionContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _ASTransitionContext.h; path = Source/_ASTransitionContext.h; sourceTree = "<group>"; };
 		97C1E2EFBFB3460820319BB67DE7E9A8 /* ASElementMap.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASElementMap.mm; path = Source/Details/ASElementMap.mm; sourceTree = "<group>"; };
@@ -926,7 +966,6 @@
 		9A753BCFC4165E6B697BA59DD40FAAE9 /* ASMultiplexImageNode.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASMultiplexImageNode.mm; path = Source/ASMultiplexImageNode.mm; sourceTree = "<group>"; };
 		9CAF14F93450E6B59675C2FB7FEA56B8 /* _ASCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = _ASCollectionViewCell.h; path = Source/Details/_ASCollectionViewCell.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9D9DFA478F8CA3199D4B1A2437E8FE6A /* Pods-TextureChat-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TextureChat-frameworks.sh"; sourceTree = "<group>"; };
 		9DA8213BEA83150926293674AE1852A9 /* PINRemoteWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINRemoteWeakProxy.m; path = Source/Classes/PINRemoteWeakProxy.m; sourceTree = "<group>"; };
 		9DACFBEE5DA1C0933127FB5EF46FC022 /* ASCollectionLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASCollectionLayout.h; path = Source/Private/ASCollectionLayout.h; sourceTree = "<group>"; };
 		9DE875FB3167EB0F5F0F4E3005267918 /* ASLayoutSpec.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASLayoutSpec.mm; path = Source/Layout/ASLayoutSpec.mm; sourceTree = "<group>"; };
@@ -945,6 +984,7 @@
 		A3DB3136FB4DF801A4F8F0B460DA384F /* ASVideoNode.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASVideoNode.mm; path = Source/ASVideoNode.mm; sourceTree = "<group>"; };
 		A43F626612EAF6E6960627B69535B850 /* PINRemoteImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PINRemoteImage.modulemap; sourceTree = "<group>"; };
 		A4C88D12EBBBE880327EE34EB681C0E6 /* ASCollectionGalleryLayoutDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASCollectionGalleryLayoutDelegate.h; path = Source/Details/ASCollectionGalleryLayoutDelegate.h; sourceTree = "<group>"; };
+		A4EA037EEB7021028B996E58F61D3759 /* Pods-TextureChat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TextureChat.modulemap"; sourceTree = "<group>"; };
 		A6648655AE61CC658E7AE86A6804AD60 /* PINOperationGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINOperationGroup.h; path = Source/PINOperationGroup.h; sourceTree = "<group>"; };
 		A72891F2EAA5FB673964DECE56723702 /* ASTextLine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASTextLine.h; path = Source/TextExperiment/Component/ASTextLine.h; sourceTree = "<group>"; };
 		A74625036C72AB1D11BF828EF40AF42E /* PINOperation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PINOperation-umbrella.h"; sourceTree = "<group>"; };
@@ -965,7 +1005,6 @@
 		AE482408FCFD063EC12E94BA06BA5CD4 /* PINCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PINCache.modulemap; sourceTree = "<group>"; };
 		AED0F60EAE75B20DC8B1DDCE763D458C /* AsyncDisplayKit+IGListKitMethods.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "AsyncDisplayKit+IGListKitMethods.mm"; path = "Source/AsyncDisplayKit+IGListKitMethods.mm"; sourceTree = "<group>"; };
 		AEE4871FA31A368E57679CAB4E80B535 /* ASDataController.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASDataController.mm; path = Source/Details/ASDataController.mm; sourceTree = "<group>"; };
-		AF12018DC0AF31891909EC6E3EDD3E82 /* Pods-TextureChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextureChat.release.xcconfig"; sourceTree = "<group>"; };
 		AF25474D038B80B74719983CAD8C47FD /* ASDisplayNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASDisplayNode.h; path = Source/ASDisplayNode.h; sourceTree = "<group>"; };
 		AF566014C397ACC6CFD312D70B47824C /* ASLayerBackingTipProvider.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASLayerBackingTipProvider.mm; path = Source/Private/ASLayerBackingTipProvider.mm; sourceTree = "<group>"; };
 		AF76734BAC07F62141ADA88F036045A0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -983,7 +1022,6 @@
 		B598C187B5C33F76B1294510F6620F5F /* ASLayoutController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASLayoutController.h; path = Source/Details/ASLayoutController.h; sourceTree = "<group>"; };
 		B66528C017ED924294842CDD7A14862F /* ASCenterLayoutSpec.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASCenterLayoutSpec.mm; path = Source/Layout/ASCenterLayoutSpec.mm; sourceTree = "<group>"; };
 		B69E0F6D2BE6B08846D0243666B148D1 /* ASAbstractLayoutController+FrameworkPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ASAbstractLayoutController+FrameworkPrivate.h"; path = "Source/Private/ASAbstractLayoutController+FrameworkPrivate.h"; sourceTree = "<group>"; };
-		B6EE81B76CE97420065E4799E3D4EE8D /* Pods-TextureChat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TextureChat-umbrella.h"; sourceTree = "<group>"; };
 		B7556CF8542973F3D63B298D04F57C1D /* ASSignpost.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASSignpost.h; path = Source/Base/ASSignpost.h; sourceTree = "<group>"; };
 		B7C9640E43C059034779C6065951B3F2 /* ASImageNode+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ASImageNode+Private.h"; path = "Source/Private/ASImageNode+Private.h"; sourceTree = "<group>"; };
 		B804EAE3C4FD585B6054924F31638531 /* PINRemoteImageMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PINRemoteImageMacros.h; path = Source/Classes/include/PINRemoteImageMacros.h; sourceTree = "<group>"; };
@@ -994,7 +1032,6 @@
 		B90985288EA00C8C9B7207E4FD9F2D26 /* ASDefaultPlayButton.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASDefaultPlayButton.mm; path = Source/Private/ASDefaultPlayButton.mm; sourceTree = "<group>"; };
 		B9485C16107E619D52DEDDC8F0811F67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		B9A841D4A633463A87F2726AEA7BBBB1 /* ASCollectionLayoutContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASCollectionLayoutContext.h; path = Source/Details/ASCollectionLayoutContext.h; sourceTree = "<group>"; };
-		B9E9B63D7048752AFE5B708B7B7E7268 /* Pods-TextureChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TextureChat.debug.xcconfig"; sourceTree = "<group>"; };
 		BA2E3D91593000ED94F506DC5F930887 /* ASTableViewProtocols.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASTableViewProtocols.h; path = Source/ASTableViewProtocols.h; sourceTree = "<group>"; };
 		BAB31548FC8D5AB50A8EB7217A7712E4 /* PINRemoteImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PINRemoteImage.debug.xcconfig; sourceTree = "<group>"; };
 		BB800E39017591858E237D0FF17509B6 /* PINDisplayLink.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINDisplayLink.m; path = Source/Classes/PINDisplayLink.m; sourceTree = "<group>"; };
@@ -1058,8 +1095,10 @@
 		DE3F8C835229C4E6A90180CC99192EAD /* ASAsciiArtBoxCreator.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASAsciiArtBoxCreator.mm; path = Source/Layout/ASAsciiArtBoxCreator.mm; sourceTree = "<group>"; };
 		DF03059CFC2CF8C308FEB24EB69C2BC1 /* NSData+ImageDetectors.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageDetectors.h"; path = "Source/Classes/include/NSData+ImageDetectors.h"; sourceTree = "<group>"; };
 		DF72C292E3F736A58344AC0C6C065427 /* ASCenterLayoutSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASCenterLayoutSpec.h; path = Source/Layout/ASCenterLayoutSpec.h; sourceTree = "<group>"; };
+		DFBB2E6442A847BC2DED9BF3F8370B10 /* Pods-TextureChat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TextureChat-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E1193740D5D4555A1D1F327B2384D05D /* ASMutableAttributedStringBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASMutableAttributedStringBuilder.h; path = Source/Details/ASMutableAttributedStringBuilder.h; sourceTree = "<group>"; };
 		E12BEC428AAE3E8C28DF57765812CED5 /* ASIGListAdapterBasedDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASIGListAdapterBasedDataSource.h; path = Source/Private/ASIGListAdapterBasedDataSource.h; sourceTree = "<group>"; };
+		E1A17A923638C658819000757D85DE4C /* Pods-TextureChat-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TextureChat-frameworks.sh"; sourceTree = "<group>"; };
 		E2BF0999ECBBCF0288C66B2D84F59B64 /* PINImage+WebP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PINImage+WebP.h"; path = "Source/Classes/Categories/PINImage+WebP.h"; sourceTree = "<group>"; };
 		E36AB6427AB8AFE90BA1816236BDC846 /* _ASAsyncTransactionGroup.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = _ASAsyncTransactionGroup.mm; path = Source/Details/Transactions/_ASAsyncTransactionGroup.mm; sourceTree = "<group>"; };
 		E37ADB2E0B6835C8DDC1275D46DE9F62 /* ASRangeControllerUpdateRangeProtocol+Beta.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ASRangeControllerUpdateRangeProtocol+Beta.h"; path = "Source/Details/ASRangeControllerUpdateRangeProtocol+Beta.h"; sourceTree = "<group>"; };
@@ -1067,6 +1106,7 @@
 		E3DC9D2EA3165B8465B514EF7D984DD1 /* ASBatchFetching.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASBatchFetching.mm; path = Source/Private/ASBatchFetching.mm; sourceTree = "<group>"; };
 		E462ACDBC86CD675CE08DD475DEECCBF /* ASDKViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASDKViewController.h; path = Source/ASDKViewController.h; sourceTree = "<group>"; };
 		E4A4E77985D62E4AE0F17F553E7EB919 /* PINOperationQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PINOperationQueue.m; path = Source/PINOperationQueue.m; sourceTree = "<group>"; };
+		E5556769DF021C5905F6AF6B23A58863 /* Pods-TextureChatUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TextureChatUI-Info.plist"; sourceTree = "<group>"; };
 		E57AD3FF0813DE17EB8AA040263EC3F6 /* ASLayout+IGListDiffKit.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "ASLayout+IGListDiffKit.mm"; path = "Source/Layout/ASLayout+IGListDiffKit.mm"; sourceTree = "<group>"; };
 		E58D323E91EB2896C1EDADABA33E1ED7 /* ASLayoutSpec+Subclasses.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ASLayoutSpec+Subclasses.h"; path = "Source/Layout/ASLayoutSpec+Subclasses.h"; sourceTree = "<group>"; };
 		E5B0C09D2E89A3BCA3B0821E9BB6D98E /* ASIGListAdapterBasedDataSource.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASIGListAdapterBasedDataSource.mm; path = Source/Private/ASIGListAdapterBasedDataSource.mm; sourceTree = "<group>"; };
@@ -1074,13 +1114,13 @@
 		E6C9422BAA0455B9F51AEB52C13E7476 /* ASLayoutManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASLayoutManager.h; path = Source/TextKit/ASLayoutManager.h; sourceTree = "<group>"; };
 		E75E0331E8BF3A3D2AB02E328A968A54 /* ASCollectionLayout.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASCollectionLayout.mm; path = Source/Private/ASCollectionLayout.mm; sourceTree = "<group>"; };
 		E79D1941FE284CBC756DA419C25EC6A8 /* _ASAsyncTransactionContainer.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = _ASAsyncTransactionContainer.mm; path = Source/Details/Transactions/_ASAsyncTransactionContainer.mm; sourceTree = "<group>"; };
-		E7BF24EBFA299B24B543BA3931943F68 /* Pods-TextureChat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TextureChat.modulemap"; sourceTree = "<group>"; };
 		E9D325D76876A8CB3D8E24335C5D30CD /* ASMutableElementMap.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASMutableElementMap.mm; path = Source/Private/ASMutableElementMap.mm; sourceTree = "<group>"; };
 		EA7DAC38C29B1FF9F337C51862E4B184 /* ASBatchFetchingDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASBatchFetchingDelegate.h; path = Source/Details/ASBatchFetchingDelegate.h; sourceTree = "<group>"; };
 		EADCD92C54DE941C661292CB7A72E1E4 /* ASTipNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASTipNode.h; path = Source/Private/ASTipNode.h; sourceTree = "<group>"; };
 		EADF7E9F19FA7D9031B097472C4C5AFB /* ASDisplayNodeTipState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASDisplayNodeTipState.h; path = Source/Private/ASDisplayNodeTipState.h; sourceTree = "<group>"; };
 		EAF41E45B6FB22BC0F50FF4DD6125E04 /* AsyncDisplayKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AsyncDisplayKit.h; path = Source/AsyncDisplayKit.h; sourceTree = "<group>"; };
 		EBF4BDADC6F612DDF408F9FC751CE8B5 /* ASAssert.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = ASAssert.mm; path = Source/Base/ASAssert.mm; sourceTree = "<group>"; };
+		EC40ADDEFACA61760D24C16D03221EBC /* Pods-TextureChatUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TextureChatUI.modulemap"; sourceTree = "<group>"; };
 		EC46695BEA92F2E006258673E7BCCF46 /* ASTipsController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASTipsController.h; path = Source/Private/ASTipsController.h; sourceTree = "<group>"; };
 		ED11FFE0882E190170933C027E98F707 /* ASAbstractLayoutController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASAbstractLayoutController.h; path = Source/Details/ASAbstractLayoutController.h; sourceTree = "<group>"; };
 		ED201A924E0BC9468579E76F2F2FE7AD /* PINOperation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PINOperation.debug.xcconfig; sourceTree = "<group>"; };
@@ -1158,6 +1198,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1579C9F1A992305C808FA681FAEFB79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD50E2E26D12B5826CC531F13FC54EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2911F693E135CF36EB0F69D452AC9AAA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1585,23 +1633,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		0806C15913D563B4DD3776CA9B464308 /* Pods-TextureChat */ = {
-			isa = PBXGroup;
-			children = (
-				E7BF24EBFA299B24B543BA3931943F68 /* Pods-TextureChat.modulemap */,
-				64AD22739DEACE1CAFB4B1FC302C615D /* Pods-TextureChat-acknowledgements.markdown */,
-				66FC67BF9BCE63E8FE69EEAB5EF2A98A /* Pods-TextureChat-acknowledgements.plist */,
-				103D059302E334CB10AFF6418FE0511E /* Pods-TextureChat-dummy.m */,
-				9D9DFA478F8CA3199D4B1A2437E8FE6A /* Pods-TextureChat-frameworks.sh */,
-				7DAA0EA12D5142DA7108C4910B2B5B0A /* Pods-TextureChat-Info.plist */,
-				B6EE81B76CE97420065E4799E3D4EE8D /* Pods-TextureChat-umbrella.h */,
-				B9E9B63D7048752AFE5B708B7B7E7268 /* Pods-TextureChat.debug.xcconfig */,
-				AF12018DC0AF31891909EC6E3EDD3E82 /* Pods-TextureChat.release.xcconfig */,
-			);
-			name = "Pods-TextureChat";
-			path = "Target Support Files/Pods-TextureChat";
-			sourceTree = "<group>";
-		};
 		0A3D2ABC3AD80561D335EF3444F18408 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1626,6 +1657,15 @@
 			path = PINCache;
 			sourceTree = "<group>";
 		};
+		12F667BB9AB78B6CF1A9A5CED2EF45E1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7735954EB078AA3053255152966F6525 /* Pods-TextureChat */,
+				FB35FCE2E0E38AF19D251144EEDBD0AB /* Pods-TextureChatUI */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		2FE445AD883B9ABD3E0241A05A5B79FD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1642,12 +1682,17 @@
 			name = "Arc-exception-safe";
 			sourceTree = "<group>";
 		};
-		35E077D9E95BF81B7D5CF2E6CB158E83 /* Targets Support Files */ = {
+		42240E7907DD9DF9FA349E9766006A03 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0806C15913D563B4DD3776CA9B464308 /* Pods-TextureChat */,
+				6320170E5A5A268B11CAE15D4EF6A9E3 /* PINCache */,
+				22C347595B1851A1E5B0A3762BB18EC9 /* PINOperation */,
+				115A4FCB2A03922EC10B633F15359653 /* PINRemoteImage */,
+				2E5048C5E27D270F1A5495404252DC25 /* Pods-TextureChat */,
+				55F73DF92D94A0ABD0B4A9B0B7D86A71 /* Pods-TextureChatUI */,
+				F46831F4FCE3AB140F12577CE0C2AAB3 /* Texture */,
 			);
-			name = "Targets Support Files";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		4943E861C9E9B41168E44698FBDDC1F3 /* Texture */ = {
@@ -1672,6 +1717,23 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Texture";
+			sourceTree = "<group>";
+		};
+		7735954EB078AA3053255152966F6525 /* Pods-TextureChat */ = {
+			isa = PBXGroup;
+			children = (
+				A4EA037EEB7021028B996E58F61D3759 /* Pods-TextureChat.modulemap */,
+				DFBB2E6442A847BC2DED9BF3F8370B10 /* Pods-TextureChat-acknowledgements.markdown */,
+				323708E6A7857112703522312ED45979 /* Pods-TextureChat-acknowledgements.plist */,
+				64837806CD26CF8900B120615723FEB3 /* Pods-TextureChat-dummy.m */,
+				E1A17A923638C658819000757D85DE4C /* Pods-TextureChat-frameworks.sh */,
+				7C581CDB72795D1E53F0A42056D61EC5 /* Pods-TextureChat-Info.plist */,
+				18D49F95F8B9074E84AC5B9194314258 /* Pods-TextureChat-umbrella.h */,
+				3C85160A6FE79D985342A424EB01C064 /* Pods-TextureChat.debug.xcconfig */,
+				74C9D4EEDDAF598097457C6FC5AED484 /* Pods-TextureChat.release.xcconfig */,
+			);
+			name = "Pods-TextureChat";
+			path = "Target Support Files/Pods-TextureChat";
 			sourceTree = "<group>";
 		};
 		7D9B71082E14B346BD914A790DA23BF3 /* Support Files */ = {
@@ -1729,18 +1791,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		C0121CD4A8F213DE5308BBB20DABC076 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6320170E5A5A268B11CAE15D4EF6A9E3 /* PINCache */,
-				22C347595B1851A1E5B0A3762BB18EC9 /* PINOperation */,
-				115A4FCB2A03922EC10B633F15359653 /* PINRemoteImage */,
-				2E5048C5E27D270F1A5495404252DC25 /* Pods-TextureChat */,
-				F46831F4FCE3AB140F12577CE0C2AAB3 /* Texture */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		C1E8A3DCAAE3BFCC36929031CC045756 /* PINCache */ = {
 			isa = PBXGroup;
 			children = (
@@ -1756,8 +1806,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				2FE445AD883B9ABD3E0241A05A5B79FD /* Frameworks */,
 				FFA46F15410013C35249535D7CB49C7F /* Pods */,
-				C0121CD4A8F213DE5308BBB20DABC076 /* Products */,
-				35E077D9E95BF81B7D5CF2E6CB158E83 /* Targets Support Files */,
+				42240E7907DD9DF9FA349E9766006A03 /* Products */,
+				12F667BB9AB78B6CF1A9A5CED2EF45E1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1869,6 +1919,22 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/PINOperation";
+			sourceTree = "<group>";
+		};
+		FB35FCE2E0E38AF19D251144EEDBD0AB /* Pods-TextureChatUI */ = {
+			isa = PBXGroup;
+			children = (
+				EC40ADDEFACA61760D24C16D03221EBC /* Pods-TextureChatUI.modulemap */,
+				3846D5C056005809ED9AFB47FC0C8279 /* Pods-TextureChatUI-acknowledgements.markdown */,
+				3DD69122BC0DF1FBBAFE1688B909DF53 /* Pods-TextureChatUI-acknowledgements.plist */,
+				9765532CA756DA1F6F769CCA828D6823 /* Pods-TextureChatUI-dummy.m */,
+				E5556769DF021C5905F6AF6B23A58863 /* Pods-TextureChatUI-Info.plist */,
+				39929A7EA5A7610431824DB66C491ED0 /* Pods-TextureChatUI-umbrella.h */,
+				88A73DE750FD04974B0D75AAC32F66CD /* Pods-TextureChatUI.debug.xcconfig */,
+				7A4D05DF15DD8627B8DFFA1BA146D457 /* Pods-TextureChatUI.release.xcconfig */,
+			);
+			name = "Pods-TextureChatUI";
+			path = "Target Support Files/Pods-TextureChatUI";
 			sourceTree = "<group>";
 		};
 		FFA46F15410013C35249535D7CB49C7F /* Pods */ = {
@@ -2191,6 +2257,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EE0C67B0778A87187C8C84448EFAC9FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95E5873FA6AC006C3968286B939D0F98 /* Pods-TextureChatUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F10EA842B4EF281AF0144F6F457CF5E8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -2266,6 +2340,28 @@
 			productReference = 6320170E5A5A268B11CAE15D4EF6A9E3 /* PINCache */;
 			productType = "com.apple.product-type.framework";
 		};
+		D60E093ED11FC7BC6DF132AC0EDAC018 /* Pods-TextureChatUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC56BB06CEF94FE37197E797537DCB59 /* Build configuration list for PBXNativeTarget "Pods-TextureChatUI" */;
+			buildPhases = (
+				EE0C67B0778A87187C8C84448EFAC9FB /* Headers */,
+				E2DF5001CD0FCDA8AB2DDA8030E864B3 /* Sources */,
+				FFD50E2E26D12B5826CC531F13FC54EC /* Frameworks */,
+				6525FEB83651A9D0093D8D868ABE91A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB98E87847ADEC9FD033DD81420398B8 /* PBXTargetDependency */,
+				BEE615001C21A2F7AC2F185F01EC374A /* PBXTargetDependency */,
+				E95C65B95CF4A79B2A36E7747504EB07 /* PBXTargetDependency */,
+				93FEEDF0C566DECFE5D6BFE0D5036645 /* PBXTargetDependency */,
+			);
+			name = "Pods-TextureChatUI";
+			productName = Pods_TextureChatUI;
+			productReference = 55F73DF92D94A0ABD0B4A9B0B7D86A71 /* Pods-TextureChatUI */;
+			productType = "com.apple.product-type.framework";
+		};
 		DB66E43BC980D741F3C7C5CF3ACEEFA4 /* Texture */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3156553CCC2E49BFFA1A857C1959E526 /* Build configuration list for PBXNativeTarget "Texture" */;
@@ -2312,7 +2408,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1520;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -2323,7 +2419,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = C0121CD4A8F213DE5308BBB20DABC076 /* Products */;
+			productRefGroup = 42240E7907DD9DF9FA349E9766006A03 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -2331,6 +2427,7 @@
 				57310B016450E63387C9D64F4933E995 /* PINOperation */,
 				E2A8B2A28D2EAB2E4CCF3B69E6792851 /* PINRemoteImage */,
 				9BCA67D3CCBF36AC9C0C869AF6B2CEDB /* Pods-TextureChat */,
+				D60E093ED11FC7BC6DF132AC0EDAC018 /* Pods-TextureChatUI */,
 				DB66E43BC980D741F3C7C5CF3ACEEFA4 /* Texture */,
 			);
 		};
@@ -2352,6 +2449,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		63E917817D3C0301EAEF9F9B2D609583 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6525FEB83651A9D0093D8D868ABE91A7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2625,6 +2729,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E2DF5001CD0FCDA8AB2DDA8030E864B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE6386F3BA25A1CD672330DB55BF261 /* Pods-TextureChatUI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -2646,11 +2758,29 @@
 			target = DB66E43BC980D741F3C7C5CF3ACEEFA4 /* Texture */;
 			targetProxy = 75364BE81933E398DC7AFC004B98531F /* PBXContainerItemProxy */;
 		};
+		93FEEDF0C566DECFE5D6BFE0D5036645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Texture;
+			target = DB66E43BC980D741F3C7C5CF3ACEEFA4 /* Texture */;
+			targetProxy = F906F68A2ACE3565E66DEF12E88DA81C /* PBXContainerItemProxy */;
+		};
 		95610259DEA4CB3375C7D70CB805118C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = PINOperation;
 			target = 57310B016450E63387C9D64F4933E995 /* PINOperation */;
 			targetProxy = 8230CF134F6D89120EB745C2783BC72B /* PBXContainerItemProxy */;
+		};
+		BB98E87847ADEC9FD033DD81420398B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PINCache;
+			target = A927C3CD51C30012080D6CA07959B246 /* PINCache */;
+			targetProxy = FC905F33E28EDAF356D40266CB9D3891 /* PBXContainerItemProxy */;
+		};
+		BEE615001C21A2F7AC2F185F01EC374A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PINOperation;
+			target = 57310B016450E63387C9D64F4933E995 /* PINOperation */;
+			targetProxy = 1394665A87495BC9DC1F778B209FE55E /* PBXContainerItemProxy */;
 		};
 		CBAD8C07A516550D1004BCB2D8352603 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2669,6 +2799,12 @@
 			name = PINOperation;
 			target = 57310B016450E63387C9D64F4933E995 /* PINOperation */;
 			targetProxy = 11B9C74BD4D0AF9A583F908B53172DBF /* PBXContainerItemProxy */;
+		};
+		E95C65B95CF4A79B2A36E7747504EB07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PINRemoteImage;
+			target = E2A8B2A28D2EAB2E4CCF3B69E6792851 /* PINRemoteImage */;
+			targetProxy = 0F8545FFCB60DCCB4FFE8EA6FD82BA41 /* PBXContainerItemProxy */;
 		};
 		F569926E50BEC301094B67D7E9110BD8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2810,6 +2946,43 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		273A83D2E4C5E69A82793F74C3078E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88A73DE750FD04974B0D75AAC32F66CD /* Pods-TextureChatUI.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TextureChatUI/Pods-TextureChatUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TextureChatUI/Pods-TextureChatUI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -3015,7 +3188,7 @@
 		};
 		B45E49935DF26DAF9F2A5E95D7743CE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9E9B63D7048752AFE5B708B7B7E7268 /* Pods-TextureChat.debug.xcconfig */;
+			baseConfigurationReference = 3C85160A6FE79D985342A424EB01C064 /* Pods-TextureChat.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3050,9 +3223,47 @@
 			};
 			name = Debug;
 		};
+		CBCE9AEA5B872B9F08592C4EFEF6635E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A4D05DF15DD8627B8DFFA1BA146D457 /* Pods-TextureChatUI.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TextureChatUI/Pods-TextureChatUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TextureChatUI/Pods-TextureChatUI.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		D5ABC2817972FD23F08A8D2765440854 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF12018DC0AF31891909EC6E3EDD3E82 /* Pods-TextureChat.release.xcconfig */;
+			baseConfigurationReference = 74C9D4EEDDAF598097457C6FC5AED484 /* Pods-TextureChat.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -3191,6 +3402,15 @@
 			buildConfigurations = (
 				F5A383BB970E100B84A0514184975BE2 /* Debug */,
 				0359AD9883667ABAE66B0D6E0ECBE22D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC56BB06CEF94FE37197E797537DCB59 /* Build configuration list for PBXNativeTarget "Pods-TextureChatUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273A83D2E4C5E69A82793F74C3078E55 /* Debug */,
+				CBCE9AEA5B872B9F08592C4EFEF6635E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

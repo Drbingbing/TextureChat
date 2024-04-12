@@ -14,7 +14,9 @@
 		44637AA72BC8D05800F66819 /* libTextureChatUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44637A982BC8CF3F00F66819 /* libTextureChatUI.a */; };
 		44637AAA2BC8D08500F66819 /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44637AA52BC8D00600F66819 /* RootTabBarController.swift */; };
 		44637AAB2BC8D08900F66819 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44637AA02BC8CF9D00F66819 /* NavigationController.swift */; };
-		67802BFEC63D0134EB7208D6 /* Pods_TextureChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAB269AE634EF02159861EA2 /* Pods_TextureChat.framework */; };
+		44637AAF2BC8DA0E00F66819 /* ChatListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44637AAD2BC8D1C100F66819 /* ChatListController.swift */; };
+		45AFD651B50B62FE736ECFEC /* Pods_TextureChatUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5C99C375F6FA46A526D33D0 /* Pods_TextureChatUI.framework */; };
+		F809FDFF9FCF4A32334BB996 /* Pods_TextureChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADDA82A425297E8A7ED694C7 /* Pods_TextureChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		27F52768EF2ED1BD26A4E59A /* Pods-TextureChatUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureChatUI.debug.xcconfig"; path = "Target Support Files/Pods-TextureChatUI/Pods-TextureChatUI.debug.xcconfig"; sourceTree = "<group>"; };
+		2DF35E2953399C255E90EB0E /* Pods-TextureChatUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureChatUI.release.xcconfig"; path = "Target Support Files/Pods-TextureChatUI/Pods-TextureChatUI.release.xcconfig"; sourceTree = "<group>"; };
 		445C0F542BC7C8FC004CD30D /* TextureChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextureChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		445C0F572BC7C8FC004CD30D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		445C0F592BC7C8FC004CD30D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,9 +53,11 @@
 		44637A982BC8CF3F00F66819 /* libTextureChatUI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTextureChatUI.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		44637AA02BC8CF9D00F66819 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		44637AA52BC8D00600F66819 /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		44637AAD2BC8D1C100F66819 /* ChatListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListController.swift; sourceTree = "<group>"; };
 		4CC39156042AA21DBD07ED6B /* Pods-TextureChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureChat.release.xcconfig"; path = "Target Support Files/Pods-TextureChat/Pods-TextureChat.release.xcconfig"; sourceTree = "<group>"; };
 		71FF4A55B38971340A0D2DD9 /* Pods-TextureChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextureChat.debug.xcconfig"; path = "Target Support Files/Pods-TextureChat/Pods-TextureChat.debug.xcconfig"; sourceTree = "<group>"; };
-		CAB269AE634EF02159861EA2 /* Pods_TextureChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextureChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADDA82A425297E8A7ED694C7 /* Pods_TextureChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextureChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5C99C375F6FA46A526D33D0 /* Pods_TextureChatUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextureChatUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67802BFEC63D0134EB7208D6 /* Pods_TextureChat.framework in Frameworks */,
 				44637AA72BC8D05800F66819 /* libTextureChatUI.a in Frameworks */,
+				F809FDFF9FCF4A32334BB996 /* Pods_TextureChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45AFD651B50B62FE736ECFEC /* Pods_TextureChatUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,7 +84,8 @@
 		0B9E96842FCCABDD4452AFE6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CAB269AE634EF02159861EA2 /* Pods_TextureChat.framework */,
+				ADDA82A425297E8A7ED694C7 /* Pods_TextureChat.framework */,
+				B5C99C375F6FA46A526D33D0 /* Pods_TextureChatUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -141,6 +149,7 @@
 		44637AA22BC8CFBB00F66819 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				44637AAC2BC8D1A400F66819 /* ChatListController */,
 				44637AA42BC8CFED00F66819 /* RootTabBarController */,
 				44637AA32BC8CFD700F66819 /* NavigationController */,
 			);
@@ -163,11 +172,21 @@
 			path = RootTabBarController;
 			sourceTree = "<group>";
 		};
+		44637AAC2BC8D1A400F66819 /* ChatListController */ = {
+			isa = PBXGroup;
+			children = (
+				44637AAD2BC8D1C100F66819 /* ChatListController.swift */,
+			);
+			path = ChatListController;
+			sourceTree = "<group>";
+		};
 		BBD09A1BF3D57BB38F516C67 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				71FF4A55B38971340A0D2DD9 /* Pods-TextureChat.debug.xcconfig */,
 				4CC39156042AA21DBD07ED6B /* Pods-TextureChat.release.xcconfig */,
+				27F52768EF2ED1BD26A4E59A /* Pods-TextureChatUI.debug.xcconfig */,
+				2DF35E2953399C255E90EB0E /* Pods-TextureChatUI.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -183,7 +202,7 @@
 				445C0F502BC7C8FC004CD30D /* Sources */,
 				445C0F512BC7C8FC004CD30D /* Frameworks */,
 				445C0F522BC7C8FC004CD30D /* Resources */,
-				DFC3CB60AB3A06A842F824E8 /* [CP] Embed Pods Frameworks */,
+				123422CB4EC7A2CBF09F42A8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44637A9C2BC8CF3F00F66819 /* Build configuration list for PBXNativeTarget "TextureChatUI" */;
 			buildPhases = (
+				338831CA8005AA0EED10880D /* [CP] Check Pods Manifest.lock */,
 				44637A942BC8CF3E00F66819 /* Sources */,
 				44637A952BC8CF3E00F66819 /* Frameworks */,
 				44637A962BC8CF3E00F66819 /* CopyFiles */,
@@ -262,6 +282,45 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		123422CB4EC7A2CBF09F42A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextureChat/Pods-TextureChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextureChat/Pods-TextureChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TextureChat/Pods-TextureChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		338831CA8005AA0EED10880D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextureChatUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		60676F292D7065109F2A4134 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -284,23 +343,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DFC3CB60AB3A06A842F824E8 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TextureChat/Pods-TextureChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-TextureChat/Pods-TextureChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TextureChat/Pods-TextureChat-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -318,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44637AAA2BC8D08500F66819 /* RootTabBarController.swift in Sources */,
+				44637AAF2BC8DA0E00F66819 /* ChatListController.swift in Sources */,
 				44637AAB2BC8D08900F66819 /* NavigationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -599,6 +642,7 @@
 		};
 		44637A9D2BC8CF3F00F66819 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F52768EF2ED1BD26A4E59A /* Pods-TextureChatUI.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -612,6 +656,7 @@
 		};
 		44637A9E2BC8CF3F00F66819 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DF35E2953399C255E90EB0E /* Pods-TextureChatUI.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;

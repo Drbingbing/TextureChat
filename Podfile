@@ -3,12 +3,18 @@ platform :ios, '12.0'
 
 inhibit_all_warnings!
 
-target 'TextureChat' do
-  
-  use_frameworks!
-
+def shared_pods 
   pod 'Texture', :inhibit_warnings => true
+end
 
+target 'TextureChat' do
+  use_frameworks!
+  shared_pods
+end
+
+target 'TextureChatUI' do 
+  use_frameworks!
+  shared_pods
 end
 
 post_install do |installer|
